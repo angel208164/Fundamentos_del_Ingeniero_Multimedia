@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+#nav_habilidades {
+    background-color: black;
+    color: white; 
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    cursor: pointer;
+    padding: 5px;
+}#nav_habilidades li {
+    font-family: Roboto;
+    list-style-type: none;
+    padding: 5px;
+    border-radius: 4px;
+}#nav_habilidades li:hover {
+    background-color: blue;
+}
+
+#titulo_habilidades {
+    font-family: Righteous;
+    font-weight: 10;
+    font-size: 40px;
+    color: white;
+}
+
+#elementos_habilidades {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 20px;
+    height: 500px;
+}
+
+#elm_1_habilidades {
+    background-image: url("Imagenes/AZ2x2abevPBZz5NJKospEw-AZ2x2abe5g9TcyA19dYViA.jpg");
+    background-size: 600px;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    width: 700px;
+}#elm_1_habilidades h1 {
+    font-family: Righteous;
+    color: white;
+    font-weight: 10;
+    font-size: 32px;
+}#elm_1_1_habilidades {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 5px;
+    align-items: flex-start;
+    /* display: flex; */
+}#elm_1_1_habilidades img {
+    width: 250px;
+    height: 250px;
+    border-radius: 20%;
+}#elm_1_1_habilidades p {
+    font-family: Roboto;
+    color: white;
+    font-size: 22px;
+}
+
+#elm_2_habilidades {
+    background-image: url("Imagenes/AZ2x4pXkjdluw4ILIl3b_A-AZ2x4pXkDZVQ-9e-sBn1PQ.jpg");
+    background-size: 600px;
+    background-repeat: no-repeat;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    border-radius: 20px;
+    width: 700px;
+}#elm_2_habilidades h1 {
+    font-family: Righteous;
+    font-weight: 10;
+    font-size: 32px;
+    color: white;
+}#elm_2_1_habilidades {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 5px;
+    align-items: flex-start;
+}#elm_2_1_habilidades img {
+    width: 250px;
+    height: 250px;
+    border-radius: 20%;
+}#elm_2_1_habilidades p {
+    font-family: Roboto;
+    color: white;
+    font-size: 22px;
+}
+
+#elementos_1_habilidades {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 20px;
+    height: 500px;
+}
+
+#elm_3_habilidades {
+    background-image: url("Imagenes/AZ2x5ZP0jj9iarcpG7iNSg-AZ2x5ZP0gWZZ0RUyPGJ8vA.jpg");
+    background-size: 600px;
+    background-repeat: no-repeat;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    border-radius: 20px;
+    width: 700px;
+}#elm_3_habilidades h1 {
+    font-family: Righteous;
+    font-weight: 10;
+    font-size: 32px;
+    color: white;
+}#elm_3_1_habilidades {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 5px;
+    align-items: flex-start;
+}#elm_3_1_habilidades p {
+    font-family: Roboto;
+    color: white;
+    font-size: 22px;
+}
+
+#elm_4_habilidades {
+    background-image: url("Imagenes/AZ2x6L7BN6vHvSw6vSNNdg-AZ2x6L7BimnmPS3t-Swd8g.jpg");
+    background-size: 600px;
+    background-repeat: no-repeat;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    border-radius: 20px;
+    width: 700px;
+}#elm_4_habilidades h1 {
+    font-family: Righteous;
+    font-weight: 10;
+    font-size: 32px;
+    color: white;
+}#elm_4_1_habilidades {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 5px;
+    align-items: flex-start;
+}#elm_4_1_habilidades p {
+    font-family: Roboto;
+    color: white;
+    font-size: 22px;
+}#elm_4_1_habilidades img {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+#elementos_2_habilidades {
+    justify-content: center;
+    display: flex;
+    height: 500px;
+}
+
+#elm_5_habilidades {
+    background-image: url("Imagenes/AZ2x6-4u5vzZskmLWB6oWA-AZ2x6-4uo6kM3mxo7pmGWA.jpg");
+    background-size: 600px;
+    background-repeat: no-repeat;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    border-radius: 20px;
+    width: 700px;
+    display: flex;
+}#elm_5_habilidades h1 {
+    font-family: Righteous;
+    font-weight: 10;
+    font-size: 32px;
+    color: white;
+}#elm_5_1_habilidades {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 5px;
+    align-items: flex-start;
+    width: 590px;
+    height: 200px;
+}#elm_5_1_habilidades p {
+    font-family: Roboto;
+    color: white;
+    font-size: 22px;
+}#elm_5_1_habilidades img {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+}

@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+#nav_definicion {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 20px;
+    padding: 5px;
+}#nav_definicion li {
+    font-family: "Roboto";
+    padding: 4px;
+    border-radius: 5px;
+    cursor: pointer;
+}#nav_definicion li:hover {
+    background-color: blue;
+}
+
+#elemento_definicion {
+    padding: 10px;
+    display: flex;
+    width: auto;
+}#elemento_definicion img {
+    width: 700px;
+}
+
+#elemento_definicion_2 {
+    padding: 30px;
+}#elemento_definicion_2 h1 {
+    font-family: "Righteous", sans-serif;
+    color: white;
+    font-size: 48px;
+    text-align: right;
+    font-weight: 10;
+}#elemento_definicion_2 p {
+    font-family: "Roboto";
+    color: white;
+    font-size: 22px;
+    text-align: right;
+}

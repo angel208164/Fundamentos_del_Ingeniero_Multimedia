@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+#nav_tipos {
+    background-color: black;
+    color: white;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    cursor: pointer;
+}#nav_tipos li {
+    font-family: Roboto;
+    list-style-type: none;
+    padding: 5px;
+    border-radius: 4px;
+}#nav_tipos li:hover {
+    background-color: blue;
+}
+
+#titulo_tipos {
+    font-family: Righteous;
+    font-weight: 10;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+#elemento_tipos {
+    padding: 20px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+#elm_1_tipos {
+    background-image: url("Imagenes/0Fd4XuQCy1Nbwml843D.png");
+    width: 330px;
+    height: 350px;
+    display: flex;
+    align-items: flex-end;
+    background-size: 330px;
+    background-repeat: no-repeat;
+}#elm_1_tipos p {
+    font-family: Roboto;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-size: 18px;
+    padding: 5px;
+}
+
+#elm_2_tipos {
+    background-image: url("Imagenes/maxresdefault.jpg");
+    width: 330px;
+    height: 350px;
+    display: flex;
+    align-items: flex-end;
+    background-size: 520px;
+    background-repeat: no-repeat;
+}#elm_2_tipos p {
+    font-family: Roboto;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-size: 18px;
+    padding: 5px;
+}
+
+#elm_3_tipos {
+    background-image: url("Imagenes/AZ2tGCm9zeTpEZwuWYRj0g-AZ2tGCm-CSAgaqUFtQdMZg.jpg");
+    width: 330px;
+    height: 350px;
+    display: flex;
+    align-items: flex-end;
+    background-size: 330px;
+    background-repeat: no-repeat;
+}#elm_3_tipos p {
+    font-family: Roboto;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-size: 18px;
+    padding: 5px;
+}
+
+#elemento_2_tipos {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#elm_4_tipos {
+    background-image: url("Imagenes/OIP.webp");
+    width: 330px;
+    height: 350px;
+    display: flex;
+    align-items: flex-end;
+    background-size: 575px;
+    background-repeat: no-repeat;
+}#elm_4_tipos p {
+    font-family: Roboto;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-size: 18px;
+    padding: 5px;
+}

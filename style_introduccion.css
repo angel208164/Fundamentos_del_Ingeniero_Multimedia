@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+#body {
+    background-color: #6D6C76;
+}
+
+#nav_2 {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 20px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}#nav_2 li {
+    font-family: "Roboto", regular;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 5px;
+}#nav_2 li:hover {
+    background-color: blue;
+}
+
+#elemento_introduccion {
+    background-image: url("Imagenes/medium-shot-man-wearing-vr-glasses-1536x864.jpg");
+    padding: 100px;
+}#elemento_introduccion h1 {
+    font-family: "Righteous", sans-serif;
+    color: white;
+    font-weight: 200px;
+    font-size: 48px;
+}#elemento_introduccion p {
+    color: white;
+    font-size: 22px;
+    font-family: "Roboto", regular;
+}#elemento_introduccion h1, p {
+    padding: 10px;
+}

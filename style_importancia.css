@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+#nav_importancia {
+    background-color: black;
+    color: white;
+    display: flex;
+    gap: 20px;
+    padding: 5px;
+    justify-content: center;
+    cursor: pointer;
+}#nav_importancia li {
+    font-family: "Roboto";
+    list-style-type: none;
+    padding: 5px;
+    border-radius: 4px;
+}#nav_importancia li:hover {
+    background-color: blue;
+}
+
+#elemento_importancia {
+    background-image: url("Imagenes/ATENCION-11.png");
+    display: flex;
+    align-items: flex-start;
+    padding: 10px;
+    height: 700px;
+}#elemento_importancia p {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    font-family: Roboto;
+    font-size: 22px;
+}

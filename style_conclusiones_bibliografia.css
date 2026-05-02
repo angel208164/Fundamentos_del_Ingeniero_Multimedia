@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+#nav_concl_bibl {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 5px;
+    cursor: pointer;
+}#nav_concl_bibl li{
+    font-family: Roboto;
+    color: white;
+    list-style-type: none;
+    padding: 5px;
+    border-radius: 4px;
+}#nav_concl_bibl li:hover {
+    background-color: blue;
+}
+
+#titulo_cb {
+    font-family: Righteous;
+    color: white;
+    font-weight: 10;
+}
+#p_cb {
+    font-family: Roboto;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+#titulo_1_cb {
+    font-family: Righteous;
+    color: white;
+    font-weight: 10;
+}
+#lista_bbl {
+    font-family: Roboto;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}#lista_bbl a {
+    color: white;
+}#lista_bbl a:hover {
+    color: lightblue;
+}
